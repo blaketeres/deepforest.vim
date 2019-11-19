@@ -2,7 +2,7 @@
 " Author:      Blake Teres (blaketeres@gmail.com)
 " Webpage:     https://github.com/blaketeres/deep-forest.vim
 " Description: Calming dark vim theme
-" Last Change: 2019-11-18
+" Last Change: 2019-11-19
 
 hi clear
 
@@ -48,10 +48,10 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi helpNormal ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi Visual ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#74a17d guifg=#0f0f1f gui=NONE
     hi VisualNOS ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi Pmenu ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi PmenuSbar ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi PmenuSel ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi PmenuThumb ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
+    hi Pmenu ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#363330 guifg=#dbebd3 gui=NONE
+    hi PmenuSbar ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#364039 guifg=NONE gui=NONE
+    hi PmenuSel ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#74a17d guifg=#0f0f1f gui=NONE
+    hi PmenuThumb ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#74a17d guifg=NONE gui=NONE
     hi FoldColumn ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi Folded ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#363330 guifg=#dbebd3 gui=NONE
     hi WildMenu ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
@@ -126,7 +126,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi VisualNOS ctermbg=NONE ctermfg=NONE cterm=NONE
     hi Pmenu ctermbg=NONE ctermfg=NONE cterm=NONE
     hi PmenuSbar ctermbg=NONE ctermfg=NONE cterm=NONE
-    hi PmenuSel ctermbg=NONE ctermfg=NONE cterm=NONE
+    hi PmenuSel ctermbg=NONE ctermfg=black cterm=NONE
     hi PmenuThumb ctermbg=NONE ctermfg=NONE cterm=NONE
     hi FoldColumn ctermbg=NONE ctermfg=NONE cterm=NONE
     hi Folded ctermbg=NONE ctermfg=NONE cterm=NONE
