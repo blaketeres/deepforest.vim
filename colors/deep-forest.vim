@@ -24,7 +24,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Error ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi Identifier ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#91bfcc gui=NONE
     hi Ignore ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi PreProc ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#66a9e8 gui=NONE
+    hi PreProc ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#e8cc6f gui=NONE
     hi Special ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#c46c6c gui=NONE
     hi Statement ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#76cc95 gui=NONE
     hi String ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#bfb278 gui=NONE
