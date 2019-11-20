@@ -2,7 +2,7 @@
 " Author:      Blake Teres (blaketeres@gmail.com)
 " Webpage:     https://github.com/blaketeres/deep-forest.vim
 " Description: Calming dark vim theme
-" Last Change: 2019-11-19
+" Last Change: 2019-11-20
 
 hi clear
 
@@ -24,7 +24,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Error ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi Identifier ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#91bfcc gui=NONE
     hi Ignore ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi PreProc ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#9fd962 gui=NONE
+    hi PreProc ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#66a9e8 gui=NONE
     hi Special ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#c46c6c gui=NONE
     hi Statement ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#76cc95 gui=NONE
     hi String ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#bfb278 gui=NONE
@@ -68,7 +68,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi SpellCap ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE guisp=NONE
     hi SpellLocal ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE guisp=NONE
     hi SpellRare ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE guisp=NONE
-    hi ColorColumn ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#363330 guifg=#faf0d2 gui=NONE
+    hi ColorColumn ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#363330 guifg=#c46c6c gui=NONE
     hi SignColumn ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#363330 guifg=#dbebd3 gui=NONE
     hi ErrorMsg ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#c46c6c gui=NONE
     hi ModeMsg ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
@@ -144,7 +144,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi SpellCap ctermbg=NONE ctermfg=NONE cterm=NONE
     hi SpellLocal ctermbg=NONE ctermfg=NONE cterm=NONE
     hi SpellRare ctermbg=NONE ctermfg=NONE cterm=NONE
-    hi ColorColumn ctermbg=NONE ctermfg=black cterm=NONE
+    hi ColorColumn ctermbg=NONE ctermfg=NONE cterm=NONE
     hi SignColumn ctermbg=NONE ctermfg=NONE cterm=NONE
     hi ErrorMsg ctermbg=NONE ctermfg=NONE cterm=NONE
     hi ModeMsg ctermbg=NONE ctermfg=NONE cterm=NONE
