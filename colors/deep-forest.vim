@@ -2,7 +2,7 @@
 " Author:      Blake Teres (blaketeres@gmail.com)
 " Webpage:     https://github.com/blaketeres/deep-forest.vim
 " Description: Calming dark vim theme
-" Last Change: 2019-11-20
+" Last Change: 2019-11-26
 
 hi clear
 
@@ -24,7 +24,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Error ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi Identifier ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#91bfcc gui=NONE
     hi Ignore ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi PreProc ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#e8cc6f gui=NONE
+    hi PreProc ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#e6d97a gui=NONE
     hi Special ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#c46c6c gui=NONE
     hi Statement ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#76cc95 gui=NONE
     hi String ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#bfb278 gui=NONE
@@ -32,8 +32,8 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Todo ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#85e874 gui=NONE
     hi Type ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#c46c6c gui=NONE
     hi Underlined ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi StatusLine ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
+    hi StatusLine ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#284d40 guifg=#2c635a gui=NONE
+    hi StatusLineNC ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#284d40 guifg=#284d40 gui=NONE
     hi StatusLineTerm ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi StatusLineTermNC ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi VertSplit ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#53805d gui=NONE

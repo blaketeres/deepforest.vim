@@ -80,6 +80,7 @@
     fg = ["#faf0d2", "NONE", "black"]
     bg = ["#0f0f1f", "NONE", "black"]
 
+    # deep-forest colors
     background = ["#2a2a2a", "NONE", "NONE"]
     constant = ["#6ad4c9", "NONE", "NONE"]
     keyword = ["#76cc95", "NONE", "NONE"]
@@ -90,10 +91,31 @@
     comment = ["#949494", "NONE", "NONE"]
     todo = ["#85e874", "NONE", "NONE"]
     visual_bg = ["#74a17d", "NONE", "NONE"]
-    import = ["#e8cc6f", "NONE", "NONE"]
+    import = ["#e6d97a", "NONE", "NONE"]
     exception = ["#c46c6c", "NONE", "NONE"]
     vert_split = ["#53805d", "NONE", "NONE"]
     scroll_bar_bg = ["#364039", "NONE", "NONE"]
+
+    # zsh colors
+    # kitty colors
+    kfg=['#faf0d2', "NONE", "NONE"]
+    kbg=['#0f0f1f', "NONE", "NONE"]
+
+    # greens
+    g1=['#284d40', "NONE", "NONE"]
+    g2=['#2c635a', "NONE", "NONE"]
+    g3=['#2d6666', "NONE", "NONE"]
+    g4=['#3f5e26', "NONE", "NONE"]
+
+    # reds
+    r1=['#a33c3c', "NONE", "NONE"]
+    r2=['#f57373', "NONE", "NONE"]
+
+    # yellows[
+    y1=['#fff717', "NONE", "NONE"]
+
+    # browns
+    b1=['#423c32', "NONE", "NONE"]
 
     # Step 4: highlights
     #
@@ -148,8 +170,8 @@
         [ "Todo", "NONE", todo, "NONE" ],
         [ "Type", "NONE", exception, "NONE" ],
         [ "Underlined", "NONE", "NONE", "NONE" ],
-        [ "StatusLine", "NONE", "NONE", "NONE" ],
-        [ "StatusLineNC", "NONE", "NONE", "NONE" ],
+        [ "StatusLine", g1, g2, "NONE" ],
+        [ "StatusLineNC", g1, g1, "NONE" ],
         [ "StatusLineTerm", "NONE", "NONE", "NONE" ],
         [ "StatusLineTermNC", "NONE", "NONE", "NONE" ],
         [ "VertSplit", "NONE", vert_split, "NONE" ],
