@@ -76,9 +76,9 @@ let s:p.insert.left = [ [ s:kbg, s:forest_string ], [ s:kfg, s:g2 ] ]
 let s:p.replace.left = [ [ s:kbg, s:forest_identifier ], [ s:kfg, s:g2 ] ]
 let s:p.visual.left = [ [ s:kbg, s:forest_visual_bg ], [ s:kfg, s:g2 ] ]
 
-let s:p.tabline.left = [ [ s:kfg, s:g2 ] ]
+let s:p.tabline.left = [ [ s:kfg, s:forest_gutter_bg ] ]
 let s:p.tabline.middle = [ [ s:kfg, s:forest_gutter_bg ] ]
-let s:p.tabline.right = [ [ s:kfg, s:g2 ] ]
-let s:p.tabline.tabsel = [ [ s:kbg, s:forest_string ] ]
+let s:p.tabline.right = [ [ s:kfg, s:forest_gutter_bg ] ]
+let s:p.tabline.tabsel = [ [ s:kfg, s:g1 ] ]
 
 let g:lightline#colorscheme#deep_forest#palette = lightline#colorscheme#flatten(s:p)
