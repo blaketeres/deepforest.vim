@@ -2,7 +2,7 @@
 " Author:      Blake Teres (blaketeres@gmail.com)
 " Webpage:     https://github.com/blaketeres/deep-forest.vim
 " Description: Calming dark vim theme
-" Last Change: 2019-11-26
+" Last Change: 2019-12-03
 
 hi clear
 
@@ -54,14 +54,14 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi PmenuThumb ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#74a17d guifg=NONE gui=NONE
     hi FoldColumn ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi Folded ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#363330 guifg=#dbebd3 gui=NONE
-    hi WildMenu ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi SpecialKey ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
+    hi WildMenu ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#2c635a guifg=#faf0d2 gui=NONE
+    hi SpecialKey ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=#52cc76 gui=NONE
     hi DiffAdd ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi DiffChange ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi DiffDelete ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi DiffText ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi IncSearch ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
-    hi Search ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
+    hi Search ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#a33c3c guifg=#fff717 gui=NONE
     hi Directory ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi MatchParen ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#74a17d guifg=#0f0f1f gui=NONE
     hi SpellBad ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE guisp=NONE
@@ -130,7 +130,7 @@ elseif &t_Co == 8 || $TERM !~# '^linux' || &t_Co == 16
     hi PmenuThumb ctermbg=NONE ctermfg=NONE cterm=NONE
     hi FoldColumn ctermbg=NONE ctermfg=NONE cterm=NONE
     hi Folded ctermbg=NONE ctermfg=NONE cterm=NONE
-    hi WildMenu ctermbg=NONE ctermfg=NONE cterm=NONE
+    hi WildMenu ctermbg=NONE ctermfg=black cterm=NONE
     hi SpecialKey ctermbg=NONE ctermfg=NONE cterm=NONE
     hi DiffAdd ctermbg=NONE ctermfg=NONE cterm=NONE
     hi DiffChange ctermbg=NONE ctermfg=NONE cterm=NONE
