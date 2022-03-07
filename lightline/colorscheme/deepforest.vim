@@ -1,8 +1,3 @@
-" =============================================================================
-" Filename: autoload/lightline/colorscheme/deep-forest.vim
-" Author: Blake Teres
-" =============================================================================
-
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
 " Deep-forest colors
@@ -81,4 +76,4 @@ let s:p.tabline.middle = [ [ s:kfg, s:forest_gutter_bg ] ]
 let s:p.tabline.right = [ [ s:kfg, s:forest_gutter_bg ] ]
 let s:p.tabline.tabsel = [ [ s:kfg, s:g1 ] ]
 
-let g:lightline#colorscheme#deep_forest#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#deepforest#palette = lightline#colorscheme#flatten(s:p)
