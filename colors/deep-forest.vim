@@ -10,7 +10,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name = "deep forest"
+let colors_name = "deepforest"
 
 if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Normal ctermbg=NONE ctermfg=NONE cterm=NONE guibg=#2a2a2a guifg=#faf0d2 gui=NONE
